@@ -6,8 +6,8 @@ For managing projects and collaborating within NatureAlpha. Please read the guid
 
 | Repository | Description | Owner |
 |------------|-------------|-------------|
-| [app-tnfd](https://github.com/NatureAlphaAI/app-tnfd) | NatureAlpha TNFD (Corp/FI) website | Carlos Mimoso
-| [libs-ts](https://github.com/NatureAlphaAI/libs-ts) | NatureAlpha TypeScript Libraries | Carlos Mimoso
+| [app-tnfd](https://github.com/NatureAlphaAI/app-tnfd) | TNFD (Corp/FI) website | Carlos Mimoso
+| [libs-ts](https://github.com/NatureAlphaAI/libs-ts) | TypeScript Libraries | Carlos Mimoso
 
 ### General Guidelines
 

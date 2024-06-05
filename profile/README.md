@@ -8,6 +8,8 @@ For managing projects and collaborating within NatureAlpha. Please read the guid
 |------------|-------------|-------------|
 | [app-tnfd](https://github.com/NatureAlphaAI/app-tnfd) | TNFD (Corp/FI) website | Carlos Mimoso
 | [libs-ts](https://github.com/NatureAlphaAI/libs-ts) | TypeScript Libraries | Carlos Mimoso
+| [libs-ts](https://github.com/NatureAlphaAI/na-multiverse) | Nature+industry projects and wide-table metrics pipelines | Jasper Hajonides
+
 
 ### General Guidelines
 

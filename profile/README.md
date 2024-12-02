@@ -11,6 +11,9 @@ For managing projects and collaborating within NatureAlpha. Please read the guid
 | [libs-multiverse](https://github.com/NatureAlphaAI/libs-multiverse) | Nature+industry projects and wide-table metrics pipelines | Jasper Hajonides
 | [libs-web-scrape](https://github.com/NatureAlphaAI/libs-web-scrape) | Code for scraping information from websites | Jasper Hajonides
 | [libs-genai_materiality](https://github.com/NatureAlphaAI/libs-genai_materiality) | Generating Materiality Matrix from Research Documents | Jasper Hajonides
+| [unmanaged risk]((https://github.com/naturealphaai/unmanaged-risk)) | Identification of Company information and policies | Gareth Smith & Jasper Hajonides
+
+
 
 
 ### General Guidelines

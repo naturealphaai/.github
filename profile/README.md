@@ -12,19 +12,10 @@ For managing projects and collaborating within NatureAlpha. Please read the guid
 | [libs-web-scrape](https://github.com/NatureAlphaAI/libs-web-scrape) | Code for scraping information from websites | Jasper Hajonides
 | [libs-genai_materiality](https://github.com/NatureAlphaAI/libs-genai_materiality) | Generating Materiality Matrix from Research Documents | Jasper Hajonides
 | [unmanaged risk](https://github.com/naturealphaai/unmanaged-risk) | Identification of Company information and policies | Gareth Smith & Jasper Hajonides
-| [nature index fund](https://github.com/naturealphaai/unmanaged-risk) | Using Nature Risk to compose a nature benchmark  | Jasper Hajonides
+| [nature index fund](https://github.com/naturealphaai/nature_index_fund) | Using Nature Risk to compose a nature benchmark  | Jasper Hajonides
 
 
 ### General Guidelines
-
-- **Consistent Naming**:
-  - When creating a new repository, use a prefix followed by a descriptive name:
-    - `app-<app-name>`: For applications and end-user interfaces.
-    - `libs-<library-name>`: For libraries and reusable code modules.
-    - `data-<dataset-name>`: For datasets or data management scripts.
-    - `tools-<tool-name>`: For utilities and scripts that support development and operations.
-    - `docs-<documentation-name>`: For documentation, guides, and tutorials.
-  - Example: `app-forest-monitor`, `libs-geo-utils`, `data-environmental-records`, `tools-deployment-scripts`, `docs-contribution-guidelines`.
 
 - **Documentation**:
   - Ensure each repository has a comprehensive `README.md` file.

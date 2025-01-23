@@ -4,15 +4,20 @@ For managing projects and collaborating within NatureAlpha. Please read the guid
 
 ## Repository Overview
 
-| Repository | Description | Owner |
+When starting a new repository, you are encouraged to initiative it by choosing the [template structure](https://github.com/naturealphaai/Template) from the dropdown menu. 
+
+| Repository | Description | Contact |
 |------------|-------------|-------------|
 | [app-tnfd](https://github.com/NatureAlphaAI/app-tnfd) | TNFD (Corp/FI) website | Carlos Mimoso
 | [libs-ts](https://github.com/NatureAlphaAI/libs-ts) | TypeScript Libraries | Carlos Mimoso
 | [libs-multiverse](https://github.com/NatureAlphaAI/libs-multiverse) | Nature+industry projects and wide-table metrics pipelines | Jasper Hajonides
 | [libs-web-scrape](https://github.com/NatureAlphaAI/libs-web-scrape) | Code for scraping information from websites | Jasper Hajonides
 | [libs-genai_materiality](https://github.com/NatureAlphaAI/libs-genai_materiality) | Generating Materiality Matrix from Research Documents | Jasper Hajonides
-| [unmanaged risk](https://github.com/naturealphaai/unmanaged-risk) | Identification of Company information and policies | Gareth Smith & Jasper Hajonides
+| [unmanaged risk](https://github.com/naturealphaai/unmanaged-risk) | Identification of Company information and policies | Jasper Hajonides
 | [nature index fund](https://github.com/naturealphaai/nature_index_fund) | Using Nature Risk to compose a nature benchmark  | Jasper Hajonides
+| [asset-locator](https://github.com/naturealphaai/asset-locator/tree/main) | Automated asset locator using SERP and OpenAI APIs  | Jasper Hajonides or Valerie Song
+
+
 
 
 ### General Guidelines

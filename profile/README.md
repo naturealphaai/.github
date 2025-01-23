@@ -10,7 +10,7 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 |------------|-------------|-------------|
 | [app-tnfd](https://github.com/NatureAlphaAI/app-tnfd) | TNFD (Corp/FI) website | Carlos Mimoso
 | [libs-ts](https://github.com/NatureAlphaAI/libs-ts) | TypeScript Libraries | Carlos Mimoso
-| [libs-multiverse](https://github.com/NatureAlphaAI/libs-multiverse) | Nature+industry projects and wide-table metrics pipelines | Jasper Hajonides
+| [libs-multiverse](https://github.com/NatureAlphaAI/libs-multiverse) | Nature+industry projects and wide-table metrics pipelines | Jasper Hajonides or Adomas Puzelevicius
 | [libs-web-scrape](https://github.com/NatureAlphaAI/libs-web-scrape) | Code for scraping information from websites | Jasper Hajonides
 | [libs-genai_materiality](https://github.com/NatureAlphaAI/libs-genai_materiality) | Generating Materiality Matrix from Research Documents | Jasper Hajonides
 | [unmanaged risk](https://github.com/naturealphaai/unmanaged-risk) | Identification of Company information and policies | Jasper Hajonides

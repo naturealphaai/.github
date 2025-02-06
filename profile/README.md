@@ -16,7 +16,7 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [unmanaged risk](https://github.com/naturealphaai/unmanaged-risk) | Identification of Company information and policies | Jasper Hajonides
 | [nature index fund](https://github.com/naturealphaai/nature_index_fund) | Using Nature Risk to compose a nature benchmark  | Jasper Hajonides
 | [asset-locator](https://github.com/naturealphaai/asset-locator/tree/main) | Automated asset locator using SERP and OpenAI APIs  | Jasper Hajonides or Valerie Song
-| [Nature Alpha Fundamentals]((https://github.com/naturealphaai/nature-alpha-fundamentals) | Set of functions that is used across modules.  | Jasper Hajonides 
+| [Nature Alpha Fundamentals](https://github.com/naturealphaai/nature-alpha-fundamentals) | Set of functions that is used across modules.  | Jasper Hajonides 
 
 
 

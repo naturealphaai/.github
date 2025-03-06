@@ -17,6 +17,8 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [nature index fund](https://github.com/naturealphaai/nature_index_fund) | Using Nature Risk to compose a nature benchmark  | Jasper Hajonides
 | [asset-locator](https://github.com/naturealphaai/asset-locator/tree/main) | Automated asset locator using SERP and OpenAI APIs  | Jasper Hajonides or Valerie Song
 | [Nature Alpha Fundamentals](https://github.com/naturealphaai/nature-alpha-fundamentals) | Set of functions that is used across modules.  | Jasper Hajonides 
+| [Source of Truth](https://github.com/naturealphaai/nature-alpha-centralised-source-of-truth) | Nature Alpha source tables.  | Adomas Puzelevicius
+| [Python Repository Template](https://github.com/naturealphaai/Template) | Nature Alpha source tables.  | Valerie Song
 
 
 

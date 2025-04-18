@@ -13,9 +13,13 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [libs-multiverse](https://github.com/NatureAlphaAI/libs-multiverse) | Nature+industry projects and wide-table metrics pipelines | Jasper Hajonides or Adomas Puzelevicius
 | [libs-web-scrape](https://github.com/NatureAlphaAI/libs-web-scrape) | Code for scraping information from websites | Jasper Hajonides
 | [libs-genai_materiality](https://github.com/NatureAlphaAI/libs-genai_materiality) | Generating Materiality Matrix from Research Documents | Jasper Hajonides
-| [unmanaged risk](https://github.com/naturealphaai/unmanaged-risk) | Identification of Company information and policies | Jasper Hajonides
+| [unmanaged risk RAG](https://github.com/naturealphaai/unmanaged-risk) | Scoring of of Company information and policies | Jasper Hajonides
+| [unmanaged risk web-scraping](https://github.com/naturealphaai/unmanaged-risk-web-scraping/) | Identification of Company information and policies from the web | Jasper Hajonides
 | [nature index fund](https://github.com/naturealphaai/nature_index_fund) | Using Nature Risk to compose a nature benchmark  | Jasper Hajonides
+| [Footprint](https://github.com/naturealphaai/footprint) | Calculating company footprint values   | Josh Gregory or Margot van Laar
 | [asset-locator](https://github.com/naturealphaai/asset-locator/tree/main) | Automated asset locator using SERP and OpenAI APIs  | Jasper Hajonides or Valerie Song
+| [Revenue Splits](https://github.com/naturealphaai/revenue_splits) | Extracting revenue splits from company documents | Valerie Song
+| [Nature Insights](https://github.com/naturealphaai/NatureInsights) | Frontend for generation of case study data and Deep Research prompt | Jasper Hajonides 
 | [Nature Alpha Fundamentals](https://github.com/naturealphaai/nature-alpha-fundamentals) | Set of functions that is used across modules.  | Jasper Hajonides 
 | [Source of Truth](https://github.com/naturealphaai/nature-alpha-centralised-source-of-truth) | Nature Alpha source tables.  | Adomas Puzelevicius
 | [Python Repository Template](https://github.com/naturealphaai/Template) | When creating a new python repo, select this as template  | Valerie Song

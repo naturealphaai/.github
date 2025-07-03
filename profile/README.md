@@ -23,6 +23,10 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Nature Alpha Fundamentals](https://github.com/naturealphaai/nature-alpha-fundamentals) | Set of functions that is used across modules.  | Jasper Hajonides 
 | [Source of Truth](https://github.com/naturealphaai/nature-alpha-centralised-source-of-truth) | Nature Alpha source tables.  | Adomas Puzelevicius
 | [Python Repository Template](https://github.com/naturealphaai/Template) | When creating a new python repo, select this as template  | Valerie Song
+| [NatureAlpha Intelligence](https://github.com/naturealphaai/naturealpha-intelligence) | Chatbot capabilities | Margot van Laar or Jasper Hajoindes
+
+
+
 
 
 

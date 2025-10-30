@@ -27,7 +27,6 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Agentic Framework](https://github.com/naturealphaai/agents_in_action) | LangGraph agentic framework for web and research capabilities | Jasper Hajonides
 | [Nature Risk (core 2.0 generation)](https://github.com/naturealphaai/nature_risk_core_table) | Combine all modules in wide table and calculate Nature Risk | Jasper Hajonides or Adomas Puzelevicius 
 
-https://github.com/naturealphaai/nature_risk_core_table
 
 
 

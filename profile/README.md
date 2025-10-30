@@ -24,7 +24,11 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Source of Truth](https://github.com/naturealphaai/nature-alpha-centralised-source-of-truth) | Nature Alpha source tables.  | Adomas Puzelevicius
 | [Python Repository Template](https://github.com/naturealphaai/Template) | When creating a new python repo, select this as template  | Valerie Song
 | [NatureAlpha Intelligence](https://github.com/naturealphaai/naturealpha-intelligence) | Chatbot capabilities | Margot van Laar or Jasper Hajoindes
-| [Agentic Framework](https://github.com/naturealphaai/agents_in_action) | LangGraph agentic framework for web and research capabilities | Jasper Hajoindes
+| [Agentic Framework](https://github.com/naturealphaai/agents_in_action) | LangGraph agentic framework for web and research capabilities | Jasper Hajonides
+| [Nature Risk (core 2.0 generation)](https://github.com/naturealphaai/agents_in_action) | Combine all modules in wide table and calculate Nature Risk | Jasper Hajonides or Adomas Puzelevicius 
+
+
+
 
 
 

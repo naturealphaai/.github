@@ -29,6 +29,7 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Nature Risk (core 2.0 generation)](https://github.com/naturealphaai/nature_risk_core_table) | Combine all modules in wide table and calculate Nature Risk | Jasper Hajonides or Adomas Puzelevicius 
 | [Supply Chain](https://github.com/naturealphaai/supply_chain_repo) | Extracting supply chain information from company documents | Valerie Song
 | [Subsidiaries](https://github.com/naturealphaai/subsidiaries) | Building subsidiaries file for companies in our universe | Valerie Song 
+| [Entity Matching](https://github.com/naturealphaai/entity_matching) | Matches asset owners to canonical entities | Nikolai Tennant
 
 
 

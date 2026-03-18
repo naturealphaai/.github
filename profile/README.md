@@ -30,7 +30,7 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Supply Chain](https://github.com/naturealphaai/supply_chain_repo) | Extracting supply chain information from company documents | Valerie Song
 | [Subsidiaries](https://github.com/naturealphaai/subsidiaries) | Building subsidiaries file for companies in our universe | Valerie Song 
 | [Entity Matching](https://github.com/naturealphaai/entity_matching) | Matches asset owners to canonical entities | Nikolai Tennant
-
+| [MSA](https://github.com/naturealphaai/MSA_production) | mean species abundance metric | Jasper Hajonides
 
 
 

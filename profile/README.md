@@ -29,7 +29,6 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Nature Risk (core 2.0 generation)](https://github.com/naturealphaai/nature_risk_core_table) | Combine all modules in wide table and calculate Nature Risk | Jasper Hajonides or Adomas Puzelevicius 
 | [Supply Chain](https://github.com/naturealphaai/supply_chain_repo) | Extracting supply chain information from company documents | Valerie Song
 | [Subsidiaries](https://github.com/naturealphaai/subsidiaries) | Building subsidiaries file for companies in our universe | Valerie Song 
-| [Entity Matching](https://github.com/naturealphaai/entity_matching) | Matches asset owners to canonical entities | Nikolai Tennant
 | [MSA](https://github.com/naturealphaai/MSA_production) | mean species abundance metric | Jasper Hajonides
 | [Asset Discovery](https://github.com/naturealphaai/asset-discovery) | Multi-stage pipeline for discovering physical assets using LLM agents and web scraping | Nikolai Tennant
 | [ALD Checker](https://github.com/naturealphaai/ald-checker) | ALD output validation and auto-fix (22 checks) | Nikolai Tennant
@@ -41,8 +40,6 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Geo Verify](https://github.com/naturealphaai/geo-verify) | Multi-signal location verification with CatBoost classifier | Nikolai Tennant
 | [Places Discovery](https://github.com/naturealphaai/places-discovery) | Multi-source location discovery (ATP + Overture Maps + Foursquare) | Nikolai Tennant
 | [Orgchart](https://github.com/naturealphaai/orgchart) | Generate corporate org-chart PNGs from relationships CSV or corp-graph DB | Nikolai Tennant
-| [Corp Enrich](https://github.com/naturealphaai/corp-enrich) | Corporate entity enrichment | Nikolai Tennant
-| [Asset Crawler](https://github.com/naturealphaai/asset-crawler) | Web crawler for asset location pages | Nikolai Tennant
 | [Store Locator](https://github.com/naturealphaai/store-locator) | Agentic store locator scraper with LLM planner | Nikolai Tennant
 | [AWS Bedrock Credentials](https://github.com/naturealphaai/aws-bedrock-credentials) | CLI tool for managing AWS Bedrock session credentials with MFA | Nikolai Tennant
 | [Corp Graph](https://github.com/naturealphaai/corp-graph) | Corporate entity resolution and ownership hierarchy database | Nikolai Tennant

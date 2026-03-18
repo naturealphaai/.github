@@ -31,9 +31,18 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Subsidiaries](https://github.com/naturealphaai/subsidiaries) | Building subsidiaries file for companies in our universe | Valerie Song 
 | [Entity Matching](https://github.com/naturealphaai/entity_matching) | Matches asset owners to canonical entities | Nikolai Tennant
 | [MSA](https://github.com/naturealphaai/MSA_production) | mean species abundance metric | Jasper Hajonides
-
-
-
+| [Asset Discovery](https://github.com/naturealphaai/asset-discovery) | Multi-stage pipeline for discovering physical assets using LLM agents and web scraping | Nikolai Tennant
+| [ALD Checker](https://github.com/naturealphaai/ald-checker) | ALD output validation and auto-fix (22 checks) | Nikolai Tennant
+| [RAG](https://github.com/naturealphaai/rag) | pgvector ingest + Cohere rerank retrieval | Nikolai Tennant
+| [Doc Extractor](https://github.com/naturealphaai/doc-extractor) | LLM structured extraction via instructor | Nikolai Tennant
+| [Web Scraper](https://github.com/naturealphaai/web-scraper) | Spider Cloud API wrapper with batching + proxy | Nikolai Tennant
+| [Corp Profile](https://github.com/naturealphaai/corp-profile) | Build company context documents from corp-graph DB or JSON files | Nikolai Tennant
+| [Geo Resolve](https://github.com/naturealphaai/geo-resolve) | Provider-agnostic geocoding with persistent cache, rate limiting, and batch support | Nikolai Tennant
+| [Geo Verify](https://github.com/naturealphaai/geo-verify) | Multi-signal location verification with CatBoost classifier | Nikolai Tennant
+| [Places Discovery](https://github.com/naturealphaai/places-discovery) | Multi-source location discovery (ATP + Overture Maps + Foursquare) | Nikolai Tennant
+| [Orgchart](https://github.com/naturealphaai/orgchart) | Generate corporate org-chart PNGs from relationships CSV or corp-graph DB | Nikolai Tennant
+| [Corp Enrich](https://github.com/naturealphaai/corp-enrich) | Corporate entity enrichment | Nikolai Tennant
+| [Asset Crawler](https://github.com/naturealphaai/asset-crawler) | Web crawler for asset location pages | Nikolai Tennant
 
 
 

@@ -43,6 +43,9 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Orgchart](https://github.com/naturealphaai/orgchart) | Generate corporate org-chart PNGs from relationships CSV or corp-graph DB | Nikolai Tennant
 | [Corp Enrich](https://github.com/naturealphaai/corp-enrich) | Corporate entity enrichment | Nikolai Tennant
 | [Asset Crawler](https://github.com/naturealphaai/asset-crawler) | Web crawler for asset location pages | Nikolai Tennant
+| [Store Locator](https://github.com/naturealphaai/store-locator) | Agentic store locator scraper with LLM planner | Nikolai Tennant
+| [AWS Bedrock Credentials](https://github.com/naturealphaai/aws-bedrock-credentials) | CLI tool for managing AWS Bedrock session credentials with MFA | Nikolai Tennant
+| [Corp Graph](https://github.com/naturealphaai/corp-graph) | Corporate entity resolution and ownership hierarchy database | Nikolai Tennant
 
 
 

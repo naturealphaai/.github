@@ -30,61 +30,17 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Supply Chain](https://github.com/naturealphaai/supply_chain_repo) | Extracting supply chain information from company documents | Valerie Song |
 | [Subsidiaries](https://github.com/naturealphaai/subsidiaries) | Building subsidiaries file for companies in our universe | Valerie Song |
 | [MSA](https://github.com/naturealphaai/MSA_production) | Mean species abundance metric | Jasper Hajonides |
+| [AWS Bedrock Credentials](https://github.com/naturealphaai/aws-bedrock-credentials) | CLI tool for managing AWS Bedrock session credentials with MFA | Nikolai Tennant |
 
 ---
 
-### ALD Module
+## ALD Module
 
 **Contact:** Nikolai Tennant (all repos below unless noted)
 
 Asset-Level Data pipeline — discovers, extracts, geocodes, verifies, and validates physical assets for corporate entities.
 
-#### Pipeline Flow
-
-```mermaid
-graph LR
-    subgraph Entity["Entity Resolution"]
-        CG[corp-graph]
-        CE[corp-enrich]
-        CP[corp-profile]
-        OC[orgchart]
-    end
-
-    subgraph Discovery["Asset Discovery"]
-        AD[asset-discovery]
-        PD[places-discovery]
-        SL[store-locator]
-        WS[web-scraper]
-        DE[doc-extractor]
-        RAG[rag]
-    end
-
-    subgraph Geo["Geo Processing"]
-        GR[geo-resolve]
-        GV[geo-verify]
-    end
-
-    subgraph Quality["Validation"]
-        AC[ald-checker]
-        AT[asset-type-assignment]
-    end
-
-    CG --> CP
-    CG --> CE
-    CG --> OC
-    CP --> AD
-    PD --> AD
-    SL --> PD
-    WS --> AD
-    DE --> AD
-    RAG --> AD
-    AD --> AT
-    AD --> GR
-    GR --> GV
-    GV --> AC
-```
-
-#### Entity Resolution
+### Entity Resolution
 
 | Repository | Description |
 |---|---|
@@ -93,7 +49,7 @@ graph LR
 | [Corp Enrich](https://github.com/naturealphaai/corp-enrich) | Corporate entity enrichment (WIP) |
 | [Orgchart](https://github.com/naturealphaai/orgchart) | Generate corporate org-chart PNGs from relationships CSV or corp-graph DB |
 
-#### Asset Discovery & Extraction
+### Asset Discovery & Extraction
 
 | Repository | Description |
 |---|---|
@@ -104,27 +60,21 @@ graph LR
 | [Doc Extractor](https://github.com/naturealphaai/doc-extractor) | LLM structured extraction via instructor |
 | [RAG](https://github.com/naturealphaai/rag) | pgvector ingest + Cohere rerank retrieval |
 
-#### Geo Processing & Verification
+### Geo Processing & Verification
 
 | Repository | Description |
 |---|---|
 | [Geo Resolve](https://github.com/naturealphaai/geo-resolve) | Provider-agnostic geocoding with persistent cache, rate limiting, and batch support |
 | [Geo Verify](https://github.com/naturealphaai/geo-verify) | Multi-signal location verification with CatBoost classifier + agentic LLM correction |
 
-#### Validation & Classification
+### Validation & Classification
 
 | Repository | Description | Contact |
 |---|---|---|
 | [ALD Checker](https://github.com/naturealphaai/ald-checker) | Output validation and auto-fix (22 checks) | Nikolai Tennant |
 | [Asset Type Assignment](https://github.com/naturealphaai/asset_type_assignment) | Map raw asset types to custom NAICS categories | Jasper Hajonides |
 
-#### Tooling
-
-| Repository | Description |
-|---|---|
-| [AWS Bedrock Credentials](https://github.com/naturealphaai/aws-bedrock-credentials) | CLI tool for managing AWS Bedrock session credentials with MFA |
-
-#### Legacy (superseded by Asset Discovery)
+### Legacy (superseded by Asset Discovery)
 
 | Repository | Description |
 |---|---|

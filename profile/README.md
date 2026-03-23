@@ -31,6 +31,7 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Subsidiaries](https://github.com/naturealphaai/subsidiaries) | Building subsidiaries file for companies in our universe | Valerie Song |
 | [MSA](https://github.com/naturealphaai/MSA_production) | Mean species abundance metric | Jasper Hajonides |
 | [AWS Bedrock Credentials](https://github.com/naturealphaai/aws-bedrock-credentials) | CLI tool for managing AWS Bedrock session credentials with MFA | Nikolai Tennant |
+| **[ALD Module](#ald-module)** | Asset-Level Data pipeline — 15 repos for discovery, extraction, geocoding, verification. See [detailed breakdown below](#ald-module). | Nikolai Tennant |
 
 ---
 

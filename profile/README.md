@@ -1,10 +1,10 @@
 # NatureAlpha code base
 
-For managing projects and collaborating within NatureAlpha. Please read the guidelines and update the Repository 
+For managing projects and collaborating within NatureAlpha. Please read the guidelines and update the Repository
 
 ## Repository Overview
 
-When starting a new repository, you are encouraged to initiative it by choosing the [template structure](https://github.com/naturealphaai/Template) from the dropdown menu. 
+When starting a new repository, you are encouraged to initiative it by choosing the [template structure](https://github.com/naturealphaai/Template) from the dropdown menu.
 
 | Repository | Description | Contact |
 |------------|-------------|-------------|
@@ -30,25 +30,108 @@ When starting a new repository, you are encouraged to initiative it by choosing 
 | [Supply Chain](https://github.com/naturealphaai/supply_chain_repo) | Extracting supply chain information from company documents | Valerie Song |
 | [Subsidiaries](https://github.com/naturealphaai/subsidiaries) | Building subsidiaries file for companies in our universe | Valerie Song |
 | [MSA](https://github.com/naturealphaai/MSA_production) | Mean species abundance metric | Jasper Hajonides |
-| **ALD Module** | | |
-| ↳ [Asset Discovery](https://github.com/naturealphaai/asset-discovery) | Multi-stage pipeline for discovering physical assets using LLM agents and web scraping | Nikolai Tennant |
-| ↳ [ALD Checker](https://github.com/naturealphaai/ald-checker) | ALD output validation and auto-fix (22 checks) | Nikolai Tennant |
-| ↳ [RAG](https://github.com/naturealphaai/rag) | pgvector ingest + Cohere rerank retrieval | Nikolai Tennant |
-| ↳ [Doc Extractor](https://github.com/naturealphaai/doc-extractor) | LLM structured extraction via instructor | Nikolai Tennant |
-| ↳ [Web Scraper](https://github.com/naturealphaai/web-scraper) | Spider Cloud API wrapper with batching + proxy | Nikolai Tennant |
-| ↳ [Corp Profile](https://github.com/naturealphaai/corp-profile) | Build company context documents from corp-graph DB or JSON files | Nikolai Tennant |
-| ↳ [Geo Resolve](https://github.com/naturealphaai/geo-resolve) | Provider-agnostic geocoding with persistent cache, rate limiting, and batch support | Nikolai Tennant |
-| ↳ [Geo Verify](https://github.com/naturealphaai/geo-verify) | Multi-signal location verification with CatBoost classifier | Nikolai Tennant |
-| ↳ [Places Discovery](https://github.com/naturealphaai/places-discovery) | Multi-source location discovery (ATP + Overture Maps + Foursquare) | Nikolai Tennant |
-| ↳ [Orgchart](https://github.com/naturealphaai/orgchart) | Generate corporate org-chart PNGs from relationships CSV or corp-graph DB | Nikolai Tennant |
-| ↳ [Store Locator](https://github.com/naturealphaai/store-locator) | Agentic store locator scraper with LLM planner | Nikolai Tennant |
-| ↳ [AWS Bedrock Credentials](https://github.com/naturealphaai/aws-bedrock-credentials) | CLI tool for managing AWS Bedrock session credentials with MFA | Nikolai Tennant |
-| ↳ [Corp Enrich](https://github.com/naturealphaai/corp-enrich) | Corporate entity enrichment (WIP) | Nikolai Tennant |
-| ↳ [Corp Graph](https://github.com/naturealphaai/corp-graph) | Corporate entity resolution and ownership hierarchy database | Nikolai Tennant |
-| ↳ [Asset Type Assignment (custom naics)](https://github.com/naturealphaai/asset_type_assignment) | convert raw asset types to our custom naics categories | Jasper Hajonides |
 
+---
 
+### ALD Module
 
+**Contact:** Nikolai Tennant (all repos below unless noted)
+
+Asset-Level Data pipeline — discovers, extracts, geocodes, verifies, and validates physical assets for corporate entities.
+
+#### Pipeline Flow
+
+```mermaid
+graph LR
+    subgraph Entity["Entity Resolution"]
+        CG[corp-graph]
+        CE[corp-enrich]
+        CP[corp-profile]
+        OC[orgchart]
+    end
+
+    subgraph Discovery["Asset Discovery"]
+        AD[asset-discovery]
+        PD[places-discovery]
+        SL[store-locator]
+        WS[web-scraper]
+        DE[doc-extractor]
+        RAG[rag]
+    end
+
+    subgraph Geo["Geo Processing"]
+        GR[geo-resolve]
+        GV[geo-verify]
+    end
+
+    subgraph Quality["Validation"]
+        AC[ald-checker]
+        AT[asset-type-assignment]
+    end
+
+    CG --> CP
+    CG --> CE
+    CG --> OC
+    CP --> AD
+    PD --> AD
+    SL --> PD
+    WS --> AD
+    DE --> AD
+    RAG --> AD
+    AD --> AT
+    AD --> GR
+    GR --> GV
+    GV --> AC
+```
+
+#### Entity Resolution
+
+| Repository | Description |
+|---|---|
+| [Corp Graph](https://github.com/naturealphaai/corp-graph) | Entity resolution and ownership hierarchy database (~4.6M issuers, securities, relationships) |
+| [Corp Profile](https://github.com/naturealphaai/corp-profile) | Build rich company context documents from corp-graph DB or JSON files |
+| [Corp Enrich](https://github.com/naturealphaai/corp-enrich) | Corporate entity enrichment (WIP) |
+| [Orgchart](https://github.com/naturealphaai/orgchart) | Generate corporate org-chart PNGs from relationships CSV or corp-graph DB |
+
+#### Asset Discovery & Extraction
+
+| Repository | Description |
+|---|---|
+| [Asset Discovery](https://github.com/naturealphaai/asset-discovery) | Orchestrator — 9-stage async pipeline (profile, places, discover, scrape, extract, merge, geocode, verify, QA) |
+| [Places Discovery](https://github.com/naturealphaai/places-discovery) | Zero-cost location discovery from All The Places + Overture Maps + Foursquare OS |
+| [Store Locator](https://github.com/naturealphaai/store-locator) | Agentic store locator scraper with LLM planner |
+| [Web Scraper](https://github.com/naturealphaai/web-scraper) | Spider Cloud API wrapper with batching + proxy |
+| [Doc Extractor](https://github.com/naturealphaai/doc-extractor) | LLM structured extraction via instructor |
+| [RAG](https://github.com/naturealphaai/rag) | pgvector ingest + Cohere rerank retrieval |
+
+#### Geo Processing & Verification
+
+| Repository | Description |
+|---|---|
+| [Geo Resolve](https://github.com/naturealphaai/geo-resolve) | Provider-agnostic geocoding with persistent cache, rate limiting, and batch support |
+| [Geo Verify](https://github.com/naturealphaai/geo-verify) | Multi-signal location verification with CatBoost classifier + agentic LLM correction |
+
+#### Validation & Classification
+
+| Repository | Description | Contact |
+|---|---|---|
+| [ALD Checker](https://github.com/naturealphaai/ald-checker) | Output validation and auto-fix (22 checks) | Nikolai Tennant |
+| [Asset Type Assignment](https://github.com/naturealphaai/asset_type_assignment) | Map raw asset types to custom NAICS categories | Jasper Hajonides |
+
+#### Tooling
+
+| Repository | Description |
+|---|---|
+| [AWS Bedrock Credentials](https://github.com/naturealphaai/aws-bedrock-credentials) | CLI tool for managing AWS Bedrock session credentials with MFA |
+
+#### Legacy (superseded by Asset Discovery)
+
+| Repository | Description |
+|---|---|
+| [Asset Search](https://github.com/naturealphaai/asset-search) | Earlier 9-stage pipeline — superseded by asset-discovery |
+| [Asset Crawler](https://github.com/naturealphaai/asset-crawler) | Earlier 10-stage pipeline — superseded by asset-discovery |
+
+---
 
 ### General Guidelines
 
